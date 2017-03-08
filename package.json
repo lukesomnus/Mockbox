@@ -1,4 +1,21 @@
 {
+  "name": "mockbox",
+  "version": "0.1.0",
+  "description": "An easy tool to mock http request",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukesomnus/Mockbox.git"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "koa"
+  ],
+  "author": "luke lee",
+  "license": "MIT",
   "devDependencies": {
     "koa": "^2.0.0",
     "koa-cors": "^0.0.16",

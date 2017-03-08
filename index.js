@@ -6,7 +6,7 @@ const qs = require('querystring');
 const convert = require('koa-convert');
 const bodyParser = require('koa-bodyparser');
 const _ = require('lodash');
-const util = require('./util');
+const util = require('./lib/util');
 const MockBox = function (config) {
     this.mockDataArr = [];
     this.config = _.extend({}, this.config, config);
@@ -98,7 +98,6 @@ function _init(mockDataArr, port) {
             }
         });
     });
-
 
     // 路由
     app
