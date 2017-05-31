@@ -2,12 +2,15 @@
 基于koa开发的模拟数据请求服务器。
 
 ## 特点
-- 可模拟GET，POST，PUT，DELETE求情
+- 可模拟GET，POST，PUT，DELETE请求
 - 可定制返回数据
+- 使用数据模板返回模拟数据
 - 可校验请求参数
 
 ## 安装
-` npm install`
+``` 
+npm install
+```
 
 ## 使用方法
 

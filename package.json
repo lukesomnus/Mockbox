@@ -1,7 +1,7 @@
 {
   "name": "mockbox",
   "version": "0.1.0",
-  "description": "An easy tool to mock http request",
+  "description": "An easy tool to mock restful http request",
   "main": "index.js",
   "scripts": {
   },
