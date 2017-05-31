@@ -1,9 +1,10 @@
 {
   "name": "mockbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An easy tool to mock restful http request",
   "main": "index.js",
   "scripts": {
+    "start":"nodemon index.js"
   },
   "repository": {
     "type": "git",

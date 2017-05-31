@@ -9,14 +9,17 @@
 
 ## 安装
 ``` 
-npm install
+npm install mockbox
+
+// or
+cnpm install mockbox
 ```
 
 ## 使用方法
 
 ### Hello
 ```
-  const MockBox = require('./index.js');
+  const MockBox = require('mockbox');
   const mb = new MockBox();
   mb.hello();
   mb.run();  //default port 3000

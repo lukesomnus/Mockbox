@@ -1,6 +1,4 @@
-// const convert = require('koa-convert');
-const Mockbox  = require('./src/mockbox')
-
+const Mockbox  = require('mockbox')
 module.exports = Mockbox;
 
 
