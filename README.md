@@ -75,4 +75,4 @@ cnpm install mockbox
      mb.post(config);
 ```
 ### Mock.run(port)
-启动mock服务器，port为端口号。
+启动mock服务器，port为端口号
